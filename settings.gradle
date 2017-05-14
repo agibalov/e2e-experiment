@@ -1,0 +1,4 @@
+rootProject.name = 'e2e-experiment'
+include 'front-end'
+include 'back-end'
+include 'app'

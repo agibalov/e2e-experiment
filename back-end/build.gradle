@@ -1,0 +1,18 @@
+group 'me.loki2302'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName = 'me.loki2302.be.BackEndApp'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.3.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.5.3.RELEASE'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.195'
+}
